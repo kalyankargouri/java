@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Temperature Converter</title>
+        <script>
+           const celsius = prompt("Enter a Celsius value: ");
+            const celsiusNumber = parseFloat(celsius);
+            if (!isNaN(celsiusNumber)) {
+      
+                const fahrenheit = (celsiusNumber * 1.8) + 32;
+
+                console.log(`${celsiusNumber} degree Celsius is equal to ${fahrenheit} degree Fahrenheit.`);
+                alert(`${celsiusNumber} degree Celsius is equal to ${fahrenheit} degree Fahrenheit.`);
+            } else {
+                console.log("Please enter a valid number.");
+                alert("Please enter a valid number.");
+            }
+        </script>
+    </head>
+</html>
